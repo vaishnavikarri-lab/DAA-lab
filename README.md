@@ -1,4 +1,5 @@
-Summary:
+Summary
+
 This lab practical includes the implementation of five sorting algorithms: Selection Sort, Merge Sort, Bubble Sort,
 Insertion Sort, and Quick Sort. Each program takes input from the user, sorts the data in ascending order,
 and shows the execution time. It also explains the time and space complexity of each algorithm. Selection Sort
@@ -9,7 +10,8 @@ Quick Sort is also very fast for most cases and is one of the most commonly used
 it can take more time. This practical helps in understanding how different sorting methods work and how their performance 
 changes with different types of input.
 
-Conclusion:
+Conclusion
+
 This practical helped in understanding the working of different sorting algorithms and comparing their performance. 
 By checking the execution time and studying the time and space complexity of each algorithm, it became easier to 
 know where each sorting method is useful. Simple algorithms like Selection Sort, Bubble Sort, and Insertion Sort 
