@@ -33,7 +33,6 @@ The programs also display the number of comparisons, actual execution time, and 
 
 Conclusion
 
-
 In this practical, I learned how to implement **Linear Search** and **Binary Search** using Python. Linear Search checks 
 each element one by one and can work with both sorted and unsorted arrays. Binary Search is faster because it divides the search 
 range into two parts, but it requires the array to be sorted.
@@ -43,6 +42,13 @@ of **O(1)** in the best case and **O(n)** in the average and worst cases. Binary
 **O(log n)** in the average and worst cases. The practical also helped me understand how to count comparisons and measure
 the actual execution time of an algorithm.
 
-Overall, I learned that Binary Search is more efficient for large sorted datasets, while Linear Search is simpler and can be used 
-when the data is not sorted.
+
+Practical-3
+Summary
+
+In this practical, we implemented the Max Heap Sort algorithm using Python to sort a list of elements in ascending order. The program takes the number of elements and the elements from the user as input. The given elements are first arranged into a Max Heap, where the largest element is always placed at the root. After creating the Max Heap, the largest element is moved to the end of the array, and the remaining elements are heapified again. This process continues until all the elements are placed in their correct positions. The program also displays the best-case, average-case, and worst-case time complexity of the algorithm. Through this practical, we learned the basic working of a Max Heap, how heapify is used during sorting, and how Heap Sort can be used to arrange elements efficiently.
+
+Conclusion
+
+From this practical, we learned how to implement Max Heap Sort and understood how it works step by step. We learned that a Max Heap always keeps the largest element at the root, which makes it easier to place the largest element at the end of the array during each step of sorting. We also understood the role of the heapify function in maintaining the Max Heap after each element is removed. Heap Sort has a time complexity of O(n log n) in the best, average, and worst cases. This means that its performance remains consistent even when the input elements are already sorted or arranged in reverse order. Overall, this practical helped us understand the working of Max Heap Sort, the use of heapify, and the importance of understanding the time complexity of an algorithm.
 
