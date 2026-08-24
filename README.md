@@ -20,6 +20,7 @@ are easy to understand and work well for small datasets. Merge Sort and Quick So
 because they are faster in most cases. Overall, this practical improved the understanding of sorting techniques 
 and showed why choosing the right algorithm is important for writing efficient programs.
 
+
 Practical-2
 Summary
 
@@ -51,4 +52,24 @@ In this practical, we implemented the Max Heap Sort algorithm using Python to so
 Conclusion
 
 From this practical, we learned how to implement Max Heap Sort and understood how it works step by step. We learned that a Max Heap always keeps the largest element at the root, which makes it easier to place the largest element at the end of the array during each step of sorting. We also understood the role of the heapify function in maintaining the Max Heap after each element is removed. Heap Sort has a time complexity of O(n log n) in the best, average, and worst cases. This means that its performance remains consistent even when the input elements are already sorted or arranged in reverse order. Overall, this practical helped us understand the working of Max Heap Sort, the use of heapify, and the importance of understanding the time complexity of an algorithm.
+
+
+Practical-4
+Summary
+
+In this practical, we implemented and analyzed the factorial program using both iterative and recursive methods in Python. The program accepts a number from the user and calculates its factorial using both approaches. We also measured the actual implementation time of each method using Python's time measurement function. Along with the execution time, we studied the best-case, average-case, and worst-case time complexity of both methods. The analysis showed that both iterative and recursive approaches have a time complexity of O(n). However, their space requirements are different. The iterative method uses O(1) auxiliary space, whereas the recursive method uses O(n) space because each recursive function call is stored in the call stack. This practical helped us understand how the same problem can be solved using different approaches and how algorithm efficiency can be evaluated.
+
+Conclusion
+
+From this practical, we learned that choosing an appropriate approach is important when implementing an algorithm. Both iterative and recursive methods successfully calculate the factorial and produce the same result, but they differ in memory usage and implementation style. The iterative method is more memory-efficient because it does not create multiple function calls, while the recursive method provides a simple and easy-to-understand representation of the factorial formula. We also learned that actual implementation time can vary depending on the system and should not be confused with theoretical time complexity. Overall, this practical improved our understanding of algorithm implementation, recursion, iteration, execution-time measurement, and complexity analysis, which are important concepts for designing efficient programs.
+
+
+Practical-7
+Summary
+
+In this practical, we implemented the Making Change Problem using Dynamic Programming in Python. The program takes the coin denominations and the required amount as input from the user and determines the minimum number of coins required to make the given amount. Dynamic Programming is used to store the results of smaller subproblems and reuse them instead of solving the same problems repeatedly. We also measured the actual implementation time of the program and analyzed its efficiency. The time complexity of the approach is O(A × N), where A is the required amount and N is the number of available coin denominations. The space complexity is O(A) because a DP table of size proportional to the amount is maintained. This practical helped us understand how Dynamic Programming can improve problem-solving efficiency by avoiding unnecessary repeated calculations.
+
+Conclusion
+
+From this practical, we learned how the Making Change Problem can be efficiently solved using Dynamic Programming. Instead of checking every possible combination of coins, the algorithm builds the solution step by step using previously calculated results. This makes the approach systematic and efficient, especially when the amount becomes larger. We also learned how to measure the actual execution time and compare it with the theoretical time complexity of an algorithm. The best, average, and worst-case time complexity for this implementation is O(A × N), while its space complexity is O(A). Overall, this practical gave us a clear understanding of Dynamic Programming, optimal subproblems, time and space complexity, and practical performance analysis, which are important for designing efficient algorithms.
 
