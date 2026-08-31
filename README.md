@@ -73,3 +73,14 @@ Conclusion
 
 From this practical, we learned how the Making Change Problem can be efficiently solved using Dynamic Programming. Instead of checking every possible combination of coins, the algorithm builds the solution step by step using previously calculated results. This makes the approach systematic and efficient, especially when the amount becomes larger. We also learned how to measure the actual execution time and compare it with the theoretical time complexity of an algorithm. The best, average, and worst-case time complexity for this implementation is O(A × N), while its space complexity is O(A). Overall, this practical gave us a clear understanding of Dynamic Programming, optimal subproblems, time and space complexity, and practical performance analysis, which are important for designing efficient algorithms.
 
+
+Practical-6
+Summary
+
+In this practical, Chain Matrix Multiplication is implemented using **Dynamic Programming**. The purpose is to find the best order in which a group of matrices should be multiplied so that the number of calculations is as small as possible. The program takes the number and dimensions of matrices from the user and checks different possible multiplication orders to find the one with the minimum cost.
+The program uses two tables. The **Cost Table** stores the minimum number of calculations needed for multiplying different groups of matrices. The **Split Table** stores the position where the matrices should be divided to get the best result. The program also displays the best multiplication order and the actual execution time. The time complexity of the program is **O(n³)** for the best, average, and worst cases, and the space complexity is **O(n²)**.
+
+Conclusion
+
+The Chain Matrix Multiplication problem was successfully solved using Dynamic Programming. The program finds the best multiplication order and reduces the number of calculations needed. The Cost Table helps us find the minimum cost, while the Split Table helps us find where to divide the matrices. This practical helped in understanding how Dynamic Programming can be used to solve a problem by solving smaller parts and storing their results for later use. It also helped us understand the execution time and time and space complexity of the algorithm.
+
