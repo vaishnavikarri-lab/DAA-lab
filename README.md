@@ -84,3 +84,13 @@ Conclusion
 
 The Chain Matrix Multiplication problem was successfully solved using Dynamic Programming. The program finds the best multiplication order and reduces the number of calculations needed. The Cost Table helps us find the minimum cost, while the Split Table helps us find where to divide the matrices. This practical helped in understanding how Dynamic Programming can be used to solve a problem by solving smaller parts and storing their results for later use. It also helped us understand the execution time and time and space complexity of the algorithm.
 
+
+Practical-8
+Summary
+
+In this practical, we implemented Graph Searching using Depth First Search (DFS) and Breadth First Search (BFS) in Python. The graph was represented using two different methods: Adjacency List and Adjacency Matrix. For DFS, we used recursion to visit a vertex and then explore its connected vertices deeply before moving to another path. For BFS, we used a queue to visit the vertices level by level. Both DFS and BFS were performed using the same graph, and the traversal order was observed. This practical helped us understand how different graph representations can be used for searching and traversal.
+
+Conclusion
+
+From this practical, we learned how to create and represent a graph using an Adjacency List and Adjacency Matrix. We also learned the working of DFS and BFS traversal techniques and their implementation in Python. DFS explores the graph deeply, while BFS explores the graph level by level. The practical helped us understand the difference between these two searching methods and how they can be applied to solve different graph-related problems. Thus, DFS and BFS are important graph traversal techniques used in many computer science applications.
+
