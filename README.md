@@ -94,3 +94,12 @@ Conclusion
 
 From this practical, we learned how to create and represent a graph using an Adjacency List and Adjacency Matrix. We also learned the working of DFS and BFS traversal techniques and their implementation in Python. DFS explores the graph deeply, while BFS explores the graph level by level. The practical helped us understand the difference between these two searching methods and how they can be applied to solve different graph-related problems. Thus, DFS and BFS are important graph traversal techniques used in many computer science applications.
 
+
+Practical-9
+Summary
+
+In this practical, we implemented Prim’s Algorithm in Python to find the Minimum Spanning Tree (MST) of a weighted graph. The graph was represented using an adjacency matrix, where each value represents the weight of an edge between two vertices. Prim’s Algorithm starts with one vertex and repeatedly selects the minimum-weight edge that connects a selected vertex to an unselected vertex. This process continues until all vertices are included in the Minimum Spanning Tree.
+
+Conclusion
+
+From this practical, we learned how Prim’s Algorithm is used to find a Minimum Spanning Tree of a weighted graph. We understood how to select the minimum-weight edges while avoiding unnecessary connections and how to calculate the total cost of the MST. The implementation also helped us understand the use of adjacency matrices in graph problems. Prim’s Algorithm is useful for connecting all vertices with minimum total cost, such as in network and infrastructure design.
